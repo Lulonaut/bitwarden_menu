@@ -11,7 +11,7 @@ Alternatively, edit the line with the secret-tool lookup, eg: `master_password=m
 - For the initial setup: `bitwarden_menu sync`
 
 ## Usage
-To retreive a password [or username]: `bitwarden_menu [username]`
+To retreive a password or username: `bitwarden_menu password/username [copy]`
 
 By default the result will be copied to the clipboard and pasted (by emulating Shift+Insert with xdotool). 
-If you just want to copy the result to the clipboard, remove the xdotool invokation near the bottom of the file.
+If you just want to copy the result to the clipboard, add `copy`, like shown above.
